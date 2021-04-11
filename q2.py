@@ -1,17 +1,17 @@
 for t in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    k=sum( )
-    c=
+    k=sum(a)
+    c=0
     for t in a:
         if not t:
-            c+=
-    if ____:
+            c+=1
+    if c==0:
         print('NO')
-    elif ____:
+    elif c==k:
         print('YES')
     else:
-        if ____:
+        if c%2==1:
             print('NO')
         else:
             print('YES')
